@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFFFF"
+    tools:context=".MostraSearchLinhasActivity" >
+   
+      <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF" >
+    </ListView>
+    
+    
+  
+    
+    
+
+
+                <LinearLayout android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                
+       
+    <EditText android:id="@+id/EditText01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@android:drawable/ic_menu_search"
+    android:hint="pesquisar linhas..."
+    android:onClick="Clicou"
+    android:inputType="text"
+   />
+    
+    
+    
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
+

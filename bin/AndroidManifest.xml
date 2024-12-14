@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abreuretto.busaopaulista"
+    android:versionCode="13"
+    android:versionName="1.13" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <permission
+        android:name="com.abreuretto.busaopaulista.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.abreuretto.busaopaulista.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC6hiv00lVaAGyuzg1pJJhK7g4OWR9CC_g" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.abreuretto.busaopaulista.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.PegaCidaActivity"
+            android:label="@string/title_activity_pega_cida"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.SobreActivity"
+            android:label="@string/title_activity_sobre"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MostraWebActivity"
+            android:label="@string/title_activity_mostra_web"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.PegaSugestaoActivity"
+            android:label="@string/title_activity_pega_sugestao"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MapaGeralActivity"
+            android:label="@string/title_activity_mapa_geral"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.DetalheFSActivity"
+            android:label="@string/title_activity_detalhe_fs"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.DetalheGOActivity"
+            android:label="@string/title_activity_detalhe_fs"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.DetalheNKActivity"
+            android:label="@string/title_activity_detalhe_fs"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.FotoFSActivity"
+            android:label="@string/title_activity_foto_fs"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.FotoGOActivity"
+            android:label="@string/title_activity_foto_go"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.TipsFSActivity"
+            android:label="@string/title_activity_tips_fs"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.FotoNKActivity"
+            android:label="@string/title_activity_foto_nk"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.FotoGrandeActivity"
+            android:label="@string/title_activity_foto_grande"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.TabDetActivity"
+            android:label="@string/title_activity_tab_det"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.DetalheYelpActivity"
+            android:label="@string/title_activity_detalhe_yelp"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.FotoYelpActivity"
+            android:label="@string/title_activity_foto_yelp"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.WebTipsActivity"
+            android:label="@string/title_activity_web_tips"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MostraLinhaActivity"
+            android:label="@string/title_activity_mostra_linha"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MapaParadaActivity"
+            android:label="@string/title_activity_mapa_parada"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MapaMonitoraActivity"
+            android:label="@string/title_activity_mapa_monitora"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MostraPosicaoActivity"
+            android:label="@string/title_activity_mostra_posicao"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.UserSettingActivity"
+            android:label="@string/title_activity_mostra_posicao"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MostraParadaLinhaActivity"
+            android:label="@string/title_activity_mostra_parada_linha"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MapaGeralOkActivity"
+            android:label="@string/title_activity_mapa_geral_ok"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MapaSelLocalActivity"
+            android:label="@string/title_activity_mapa_sel_local"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MostraSearchLinhasActivity"
+            android:label="@string/title_activity_mostra_search_linhas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MostraItinerarioActivity"
+            android:label="@string/title_activity_mostra_itinerario" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MostraTrajetoActivity"
+            android:label="@string/title_activity_mostra_trajeto" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.abreuretto.busaopaulista.MostraTrajetoListaActivity"
+            android:label="@string/title_activity_mostra_trajeto_lista" 
+            android:screenOrientation="portrait" >
+        </activity>
+       
+        
+        <activity
+            android:name="com.abreuretto.busaopaulista.MapaTrajetoLinha"
+            android:label="@string/title_activity_mapa_trajeto_linha" 
+            android:screenOrientation="portrait" >
+            
+            
+        </activity>
+    </application>
+
+</manifest>

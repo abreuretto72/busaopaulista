@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Busão Paulistano</string>
+    <string name="title_activity_pega_cida">Busão Paulistano</string>
+    <string name="title_activity_mostra_web">Busão Paulistano</string> 
+    
+    <string name="action_tips">recomendados</string>
+    <string name="action_map">mapa das paradas</string>
+    <string name="action_refresh">atualizar</string>
+    <string name="action_about">sobre</string>
+    <string name="action_idioma">Set English</string> 
+    
+    <string name="title_activity_tab">TabActivity</string>    
+    
+    <string name="enable_gps">Habilitar GPS</string>
+    <string name="enable_gps_dialog">GPS não está habilitado. Você gostaria de habilitá-lo?</string>
+    <string name="no_gps_support">GPS não ativo</string>
+    <string name="no_network_support">Rede não ativa</string>
+    <string name="locationfind">procurar neste local(toque no botão)</string>
+    <string name="searchanother">pesquisar em outro local(digite abaixo)</string>
+    <string name="carregando">pesquisando a sua localização</string>
+    <string name="carregandooutro">pesquisando outra localização</string>
+    <string name="carregandoplaces">Procurando paradas...</string>
+    <string name="carregandoselecionado">carregando os dados do local selecionado</string>
+    <string name="carregandoplacesfs">carregando os locais próximos recomendados pelo Foursquare e Yelp</string>
+    <string name="interneterror">Conexão com problemas</string>
+    <string name="interneterrorpede">Internet não conectada</string>
+    <string name="localindisponivel">Local não disponível</string>
+    <string name="localdigita">Informe o novo local para a pesquisa</string>
+    <string name="cidadigita">Informe o novo local para a pesquisa</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_sobre">Sobre</string>   
+    <string name="title_activity_pega_sugestao">Foursquare e Yelp- locais próximos recomendados</string>
+    <string name="title_activity_mapa_geral">Mapa das paradas</string>
+    <string name="title_activity_detalhe_fs">Dados do local selecionado</string>
+    <string name="title_activity_foto_fs">Foursquare fotos</string>
+    <string name="title_activity_foto_go">Google fotos</string>
+    <string name="title_activity_tips_fs">Comentários</string>
+    <string name="title_activity_tips_go">Google comentários</string>
+    <string name="carregandofotos">carregando fotos</string>
+    <string name="carregandoreviews">carregando comentários</string>
+    <string name="title_activity_foto_nk">Nokia fotos</string>
+    <string name="title_activity_foto_grande">Foto selecionada</string>
+    <string name="title_activity_tab_det">Local selecionado</string>
+    <string name="semfoto">sem fotos para este local</string>
+    <string name="semtips">sem comentários para este local</string>
+    <string name="semfotocab">Fotos</string>
+    <string name="semtipscab">Comentários</string>
+    <string name="mapatab">Mapa das paradas</string>
+    <string name="fototab">Fotos</string>
+    <string name="tipstab">Comentários</string>
+    <string name="sugetab">Dicas</string>
+    <string name="politica">política de privacidade</string>
+        <string name="google">data from Google</string>
+    <string name="foursquare">data from Foursquare</string>
+    <string name="nokia">data from Nokia</string>
+      <string name="yelp">data from Yelp</string>
+          <string name="title_activity_detalhe_yelp">DetalheYelpActivity</string>
+    <string name="action_settings">Configuração</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_foto_yelp">FotoYelpActivity</string>
+    <string name="title_activity_web_tips">Web Tips</string>
+    <string name="title_activity_mostra_linha">Linhas desta parada</string>
+    <string name="title_activity_marker_demo">MarkerDemoActivity</string>
+    <string name="title_activity_mapa_parada">Ônibus da linha selecionada</string>
+    <string name="title_activity_mapa_monitora">Monitoramento do ônibus selecionado</string>
+    <string name="title_activity_mostra_posicao">Configuração</string>
+    <string name="prompttitle">Pesquisa paradas de uma linha</string>
+    <string name="promptmens">Informe o código da linha com 4 dígitos. (Ex: 1756-10)</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="carregafavoritos">Procurando favoritos...</string>
+    <string name="excluifavoritos">Excluindo favorito...</string>
+      <string name="title_activity_mostra_parada_linha">Mostra Paradas da Linha</string>
+    <string name="pref_send_report">Tocar buzina</string>
+    <string name="pref_send_report_summary">Buzinar na aproximação do ônibus</string>
+    <string name="pref_sync_frequency">Vibrar</string>
+    <string name="pref_sync_frequency_summary">Vibrar na aproximação do ônibus</string>
+    <string name="pref_user_name">Telefone</string>
+    <string name="pref_user_name_summary">Informe o número deste celular. Não vamos enviar SMS.</string>     
+    <string name="pref_user_profile">Telefone para cadastro</string>
+    <string name="pref_update_setting">Habilitar/desabilitar funções</string>
+    <string name="menu_settings">Configuração</string>
+    <string name="carregandoopçoes">Buscando opções para este mesmo trajeto.</string>  
+    <string name="carregandoparadaslinha">Carregando paradas da linha informada.</string>   
+    <string name="ajuda">Ajuda</string>
+    <string name="title_activity_mapa_geral_ok">Mapa das paradas próximas</string>
+    <string name="iniciando">Determinando a sua localização..</string>
+    <string name="title_activity_mapa_sel_local">Seleção de uma nova localização</string>
+    <string name="linhasparada">Obtendo linhas e ônibus desta parada.</string>
+    <string name="title_activity_mostra_search_linhas">Pesquisa linhas(código ou nome)</string>
+     <string name="itinerario">Redirecionando para o site do SPTrans: Itinerário da linha selecionada.</string>
+         <string name="title_activity_mostra_trajeto">Pesquisar trajetos</string>
+            <string name="title_activity_mostra_trajeto_lista">Trajeto sugerido</string>
+            <string name="buscando_trajeto">Pesquisando trajetos...</string>
+            <string name="semparadaslinha">Sem paradas monitoradas para esta linha no sistema da SPTRANS...</string>
+    <string name="pesqlinha">Pesquisando linhas...</string>
+    <string name="action_mapa">mapa</string>
+    <string name="urlreview">Avalie este aplicativo</string>
+   
+    
+  
+</resources>
+
+    

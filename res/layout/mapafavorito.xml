@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     
+    <ImageView
+        android:id="@+id/appIcon" 
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"  
+        android:textSize="12dp"   
+        android:layout_marginLeft="3dp"
+        android:src="@drawable/parada"
+        android:layout_marginTop="3dp" />   
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/appIcon"
+        android:layout_toRightOf="@id/appIcon"
+        android:layout_marginLeft="3dp"
+        android:maxLines="2"
+        android:text="Titulo"
+        android:textColor="@color/texto"
+        android:textSize="16dp"/>
+    
+    <TextView
+        android:id="@+id/txtPonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:layout_toRightOf="@id/appIcon"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginLeft="3dp"
+        android:text="Ponto"
+        android:textColor="@color/textoende"
+        android:maxLines="2"
+        android:textSize="12dp"/> 
+    
+    
+    <LinearLayout
+        android:id="@+id/ratingCntr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/appIcon"
+        android:layout_below="@id/txtPonto"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp" >
+    </LinearLayout>
+    
+    
+
+ 
+ 
+    
+    
+   
+    
+    
+    
+</RelativeLayout>
+ 
+

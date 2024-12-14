@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapaGeralOkActivity" >
+
+
+
+
+<fragment android:id="@+id/map"
+          android:name="com.google.android.gms.maps.SupportMapFragment"
+          android:layout_width="fill_parent"
+          android:layout_height="match_parent" />
+
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/b_refresh"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:onClick="Brefresh"
+        android:text=""
+        android:background="@drawable/b_refresh" />
+   
+    <Button
+        android:id="@+id/b_posicao"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:onClick="Bposicao"
+        android:text=""
+        android:background="@drawable/b_myposition" />
+    <Button
+        android:id="@+id/b_linha"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+         android:onClick="Blinha"
+        android:text=""
+        android:background="@drawable/b_trajeto" />
+    <Button
+        android:id="@+id/B_favorito"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:text=""
+        android:onClick="Bfavorito"
+        android:background="@drawable/b_favorito" />
+     <Button
+        android:id="@+id/B_trajetos"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:text=""
+        android:onClick="Btrajetos"
+        android:background="@drawable/b_setup" />
+     <Button
+        android:id="@+id/b_trajeto"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:onClick="Btrajeto"
+        android:text=""
+        android:background="@drawable/b_info" />    
+    <TextView
+        android:id="@+id/textUserSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+         />
+</LinearLayout>
+</RelativeLayout>

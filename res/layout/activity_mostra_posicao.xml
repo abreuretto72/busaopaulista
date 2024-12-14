@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context=".MostraPosicaoActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        
+          
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+        
+        
+        
+           <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configuração" />
+        
+        
+         <RadioGroup
+        android:id="@+id/radioLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        
+        
+        <RadioButton
+            android:id="@+id/rblocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+   
+            android:text="Mostrar paradas ao meu redor" />
+
+        <RadioButton
+            android:id="@+id/rboutro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostrar paradas de outros locais." />
+        
+        
+        
+        </RadioGroup>
+  
+         
+         
+         
+         
+
+         
+         
+         
+        
+    </LinearLayout>
+
+  
+
+</RelativeLayout>

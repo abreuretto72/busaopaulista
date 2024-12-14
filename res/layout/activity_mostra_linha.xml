@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="#ffffff"
+  >
+
+      
+       <FrameLayout android:id="@+id/FrameLayout01" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content">
+    
+    <ImageView
+	android:id="@+id/imauser"
+	android:layout_width="25dp"
+	android:layout_height="31dp"    
+	/>
+    
+    <TextView
+    android:id="@+id/tnome"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="14dp"
+    
+    android:layout_marginLeft="30dp"
+    android:paddingLeft="5dp"
+    android:layout_gravity="fill_horizontal"
+    android:textColor="@color/texto"       
+    android:text="" />
+    
+    
+    
+    </FrameLayout>
+      
+      
+   <ExpandableListView
+                android:id="@+id/lvExp"
+                android:fadingEdge="horizontal"
+                android:fadingEdgeLength="10dp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>  
+
+   
+
+  </LinearLayout>
+
+
+
+
+
+
+
